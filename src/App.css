@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+html,
+body {
+  min-height: 100% !important;
+  height: 100%;
+}
+.graphics {
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 3%;
+  top: 45%;
+  background-color: #0e0e0e69;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px #1c1c1c;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  /* background-image: url(../public/london.jpg); */
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+button {
+  float: right;
+  border: none;
+  background: rgb(214, 108, 5);
+  padding: 26px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.information {
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgb(148, 158, 163);
+  right: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  box-shadow: 2px 0 17px #6f6262;
+}
+li {
+  list-style: none;
+  margin: 7% 0%;
+}
+.mouse:hover {
+  cursor: pointer;
+  color: white;
+}
+.header:hover {
+  cursor: default;
+}
+.header {
+  color: white !important;
+  font-size: 15px;
+}
+input {
+  /* margin-left: 30%; */
+  border: none;
+  background: transparent;
+  color: white;
+  /* text-align: center; */
+  padding: 6%;
+  border-bottom: 1px solid white;
+  width: 60%;
+  margin-left: 9%;
+  padding-bottom: 3%;
+  margin-top: 2%;
+  padding-left: 3% !important;
+}
+hr {
+  color: white;
+  margin: 6%;
+  width: 75%;
+  margin-left: 10%;
+}
+input:focus {
+  outline: none !important;
+}
+.fal,
+.far {
+  font-family: "Font Awesome 5 Pro";
+  color: white;
+  font-size: 20px;
+}
+.group_header {
+  margin-left: 12%;
+  margin-top: 11%;
+}
+::-moz-placeholder {
+  color: white;
+  /* opacity: 1 !important; */
+}
+.temperature {
+  font-size: 130px;
+  font-weight: 700;
+  font-family: "PT Sans", sans-serif !important;
+}
+.weather_location_time {
+  font-size: 18px;
+  /* margin-top: 20px; */
+  margin-left: 20px;
+  font-family: "PT Sans", sans-serif !important;
+  text-align: center;
+}
+#place {
+  font-size: 60px !important;
+}
+.values {
+  margin-left: 36%;
+}
+.one {
+  text-transform: capitalize;
+}
+img {
+  /* height: 120px;
+  width: 110px; */
+  margin-top: 5px;
+}
+.graphics .loading {
+  visibility: hidden;
+  position: relative;
+}
+.graphics .loading:after {
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  left: 3%;
+  font-family: "poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* top: 0; */
+}
+#time,
+#date {
+  font-size: 18px;
+}
